@@ -1,3 +1,17 @@
+0) Array
+
+at() :- This function is used to access the elements of array
+get() :- This function is also used to access the elements of array. This function is not the member of array class but overloaded function from class tuple
+operator[] :- This is similar to C-style arrays. This method is also used to access array elements
+front() :- This returns the first element of array
+back() :- This returns the last element of array
+size() :- It returns the number of elements in array. This is a property that C-style arrays lack. 
+max_size() :- It returns the maximum number of elements array can hold i.e, the size with which array is declared. The size() and max_size() return the same value.  
+swap() :- The swap() swaps all elements of one array with other.
+empty() :- This function returns true when the array size is zero else returns false. 
+fill() :- This function is used to fill the entire array with a particular value.
+
+
 1) vector
 
 all vector functions;
