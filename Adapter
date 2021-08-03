@@ -1,1 +1,30 @@
+1) queue
+
+empty() – Returns whether the queue is empty.
+size() – Returns the size of the queue.
+queue::swap() in C++ STL: Exchange the contents of two queues but the queues must be of same type, although sizes may differ.
+queue::emplace() in C++ STL: Insert a new element into the queue container, the new element is added to the end of the queue.
+queue::front() and queue::back() in C++ STL– front() function returns a reference to the first element of the queue. back() function returns a reference to the last element of the queue.
+push(g) and pop() – push() function adds the element ‘g’ at the end of the queue. pop() function deletes the first element of the queue.
+
+2) priority queue 
+
+priority_queue::empty() in C++ STL– empty() function returns whether the queue is empty.
+priority_queue::size() in C++ STL– size() function returns the size of the queue.
+priority_queue::top() in C++ STL– Returns a reference to the top most element of the queue
+priority_queue::push() in C++ STL– push(g) function adds the element ‘g’ at the end of the queue.
+priority_queue::pop() in C++ STL– pop() function deletes the first element of the queue.
+priority_queue::swap() in C++ STL– This function is used to swap the contents of one priority queue with another priority queue of same type and size.
+priority_queue::emplace() in C++ STL – This function is used to insert a new element into the priority queue container, the new element is added to the top of the priority queue.
+priority_queue value_type in C++ STL– Represents the type of object stored as an element in a priority_queue. It acts as a synonym for the template parameter.
+
+3) stack
+
+empty() – Returns whether the stack is empty – Time Complexity : O(1) 
+size() – Returns the size of the stack – Time Complexity : O(1) 
+top() – Returns a reference to the top most element of the stack – Time Complexity : O(1) 
+push(g) – Adds the element ‘g’ at the top of the stack – Time Complexity : O(1) 
+pop() – Deletes the top most element of the stack – Time Complexity : O(1) 
+swap() 
+emplace()
 
